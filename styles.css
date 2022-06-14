@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* --------------------------------------------------------------- */
+.gnav{
+    background-color: rgb(68, 180, 3);
+}
+a.cwhite{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.cwhite:hover{
+    color: rgb(211, 255, 194);
+}
+
+.call{
+    color: rgb(211, 255, 194);
+}
+/* ---------------------------------------------------------------- */
+.bld{
+    font-weight: bolder;
+}
+.mimage{
+    height:530px;
+}
+.topleft {
+position: absolute;
+top: 100px;
+color: white;
+font-size: 18px;
+}
+.fons{
+    font-size: 20px;
+}
+.fontshead{
+    font-size: 65px; 
+}
+a.res:hover{
+    color: #146c43;
+}
+.para{
+    font-weight: 800;
+}
+/* ------------OUR MENU------------ */
+.ourmenu{
+    padding-top: 120px;
+    background-color:rgb(248, 248, 248);
+}
+
+a.menu{
+   
+    color: rgba(0, 0, 0, 0.55);
+    border-bottom: 2 px solid black;
+}
+a.menu:hover{
+    color: black;
+}
+.pad{
+    padding-block: 40px;
+}
+.cardcolor{
+    background-color: white;
+}
+.content
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: space-between;
+}
+.gimage{
+    height: 500px;
+}
+.center
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+.fquote{
+    font-size: 35px;
+}
+.qt{
+    padding: 100px;
+    background-color:rgb(248, 248, 248);
+}
+.imgleft {
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    color: white;
+    font-size: 18px;
+    }
+    .formpos
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: space-evenly;
+    }
+    .wid{
+        width: 700px;
+    }
+.contentt
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: space-between;
+}
+.bdr{
+    border-right: 1px solid #6c757d;
+    height: 130px;
+}
+.map-container-4{
+    overflow:hidden;
+    padding-bottom:36.80%;
+    position:relative;
+    height:0;
+  }
+  .map-container-4 iframe{
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    position:absolute;
+  }
+
+.last-nav{
+    display:flex;
+    flex-direction:row;
+     justify-content:space-between;
+} 
+.amenu.active {
+   border-top: 2px solid black;
+} 
+.btnline{
+    color: #146c43;
+    border-bottom: 2px solid #146c43;
+    transition: 1s;
+}
+.btnline:hover{
+    color: #010805;
+    border-bottom: 2px solid #000000;
+}
+
+/* ----------------------RESPONSIVE--------------------------------------- */
+@media(max-width:1024px){
+    .topleft {
+        left: 100px;
+    }
+}
+/* ------------------ 768--------------------------*/
+@media(max-width:768px){
+    .topleft {
+        
+        left: 100px;
+    }
+    a.cwhite{
+        font-size:small;
+        text-decoration: none;
+    }
+    .fons{
+        font-size: 20px;
+    }
+    .fontshead{
+        font-size: 50px; 
+    }
+    .call{
+        font-size:small;
+    }
+    .mimage{
+        height: 400px;
+    }
+    .cardcolor{
+        padding-bottom: 20px;
+    }
+    .gimage{
+        height: 350px;
+    }
+    .fquote{
+        font-size: 25px;
+    }
+    .fauther{
+        font-size: 18px;
+    }
+    .qt{
+        padding: 70px;
+    }
+    .wid{
+        width: 100%;
+    }
+   
+    /* .map-container-4{
+        overflow:hidden;
+        padding-bottom:20.80%;
+        position:relative;
+        height:0;
+      } */
+    
+    
+}
+
+
+/* ----------------------535------------------------ */
+@media(max-width:535px){
+    .fons{
+        font-size: 13px;
+    }
+    .fontshead{
+        font-size: 18px; 
+    }
+    a.abtn{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .mimage{
+        height: 250px;
+    }
+    .cardcolor{
+        padding-bottom: 0px;
+    }
+    .gimage{
+        height: 250px;
+    }
+    .fquote{
+        font-size: 17px;
+    }
+    .fauther{
+        font-size: 13px;
+    }
+    .qt{
+        padding: 50px;
+    }
+    .topleft {
+        left: 50px;
+    }
+    .menu{
+        font-size: small;
+    }
+    .contentt
+    {   
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .wid{
+        width: 100%;
+    }
+    .bdr{
+       border:none;
+    }
+.last-nav{
+    display:flex;
+    flex-direction:row;
+     justify-content:center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}  
+}
+@media(max-width:340px) {
+
+        .menu{
+            font-size:10px ;
+        }
+        .amenu.active{
+            border-top:1px solid black;
+        }
+    
+}
+
